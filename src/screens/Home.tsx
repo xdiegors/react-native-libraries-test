@@ -5,13 +5,23 @@ import {Button, Text} from 'react-native';
 export function Home({navigation}) {
   return (
     <>
-      <Text>Oi</Text>
+      <Text>XDex</Text>
       <Button
-        title="Camera"
-        onPress={() => navigation.navigate('Camera')}></Button>
+        title="Tesla Camera Kit"
+        onPress={() => navigation.navigate('Camera')}
+      />
       <Button
-        title="Picker"
-        onPress={() => navigation.navigate('Picker')}></Button>
+        title="Image Picker"
+        onPress={() => navigation.navigate('ImagePicker')}
+      />
+      <Button
+        title="Date Picker"
+        onPress={() => navigation.navigate('DatePicker')}
+      />
+      <Button
+        title="Dropdown"
+        onPress={() => navigation.navigate('Dropdown')}
+      />
     </>
   );
 }

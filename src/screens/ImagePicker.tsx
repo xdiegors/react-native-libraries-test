@@ -8,7 +8,7 @@ import {Alert, Button, View} from 'react-native';
 // You can also use as a promise without 'callback':
 //const result = await launchImageLibrary(options ?);
 
-export function Picker() {
+export function ImagePicker() {
   return (
     <View
       style={{
