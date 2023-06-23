@@ -11,7 +11,7 @@ export function Home({navigation}) {
         onPress={() => navigation.navigate('Camera')}></Button>
       <Button
         title="Picker"
-        onPress={() => navigation.navigate('Camera')}></Button>
+        onPress={() => navigation.navigate('Picker')}></Button>
     </>
   );
 }
